@@ -109,11 +109,12 @@ export function WelcomeSection() {
 							opacity: isInView ? 1 : 0,
 							transition: "all 0.9s cubic-bezier(0.17, 0.55, 0.55, 1) 0.5s",
 							display: "flex",
-							flexDirection: "row", // Change this line
-							flexWrap: "wrap", // Add this line
-							justifyContent: "center", // Change this line
-							gap: "1rem", // Add this line
-							maxWidth: "500px"
+							flexDirection: "row",
+							flexWrap: "wrap",
+							justifyContent: "flex-start", // Align items to the left side of the container
+							gap: "1rem",
+							maxWidth: "500px",
+							paddingLeft: "1rem" // Add some padding to the left side of the container
 						}}
 						>
 						<Link
@@ -122,7 +123,7 @@ export function WelcomeSection() {
 							tabIndex="0"
 							className="btn"
 							aria-label="Latest projects"
-							style={{ maxWidth: "240px" }} // Limit the maximum width of the button
+							style={{ maxWidth: "240px" }}
 						>
 							See my latest projects
 						</Link>
@@ -130,11 +131,12 @@ export function WelcomeSection() {
 							href="https://moccasin-hettie-72.tiiny.site/"
 							className="btn"
 							aria-label="Check out my resume"
-							style={{ maxWidth: "240px" }} // Limit the maximum width of the button
+							style={{ maxWidth: "240px" }}
 						>
 							Check out my resume
 						</Link>
 						</div>
+
 
 					</div>
 
