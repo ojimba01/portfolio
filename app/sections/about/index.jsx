@@ -27,7 +27,7 @@ export function AboutSection() {
                         <p>
                             Hi, I{"'"}m Olayinka Jimba Jr., a Full-Stack Software Engineer with experience in Python, Javascript, Typescript, C#, C/C++, and Golang, among others. I am currently pursuing a B.A. in Computer Science & Data Science at The College of Wooster.
                         </p>
-                        <p>
+                        <p className="my-3.5">
                             My professional programming journey officially started in 2022 when I worked as a Software Engineer Intern at Tabula Rasa HealthCare. I played a vital role in building NLP ML applications and developing dialysis knowledge graphs.
                         </p>
                         <p>
