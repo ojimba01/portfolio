@@ -103,30 +103,39 @@ export function WelcomeSection() {
 							Stick around to see some of my work.
 						</p>
 						<div
-							ref={ref}
-							style={{
-								transform: isInView ? "none" : "translateY(50px)",
-								opacity: isInView ? 1 : 0,
-								transition: "all 0.9s cubic-bezier(0.17, 0.55, 0.55, 1) 0.5s"
-							}}
+						ref={ref}
+						style={{
+							transform: isInView ? "none" : "translateY(50px)",
+							opacity: isInView ? 1 : 0,
+							transition: "all 0.9s cubic-bezier(0.17, 0.55, 0.55, 1) 0.5s",
+							display: "flex",
+							flexDirection: "row", // Change this line
+							flexWrap: "wrap", // Add this line
+							justifyContent: "center", // Change this line
+							gap: "1rem", // Add this line
+							maxWidth: "500px"
+						}}
 						>
-							<Link
-								href="#projects"
-								onClick={onClick}
-								tabIndex="0"
-								className="btn mr-3"
-								aria-label="Latest projects"
-							>
-								See my latest projects
-							</Link>
-							<Link
-								href="https://moccasin-hettie-72.tiiny.site/"
-								className="btn ml-3"
-								aria-label="Check out my resume"
-							>
-								Check out my resume
-							</Link>
+						<Link
+							href="#projects"
+							onClick={onClick}
+							tabIndex="0"
+							className="btn"
+							aria-label="Latest projects"
+							style={{ maxWidth: "240px" }} // Limit the maximum width of the button
+						>
+							See my latest projects
+						</Link>
+						<Link
+							href="https://moccasin-hettie-72.tiiny.site/"
+							className="btn"
+							aria-label="Check out my resume"
+							style={{ maxWidth: "240px" }} // Limit the maximum width of the button
+						>
+							Check out my resume
+						</Link>
 						</div>
+
 					</div>
 
 					{isTabletUp && <WelcomeAnimation />}
