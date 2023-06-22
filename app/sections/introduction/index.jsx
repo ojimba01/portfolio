@@ -18,7 +18,7 @@ export function WelcomeSection() {
 	const [text] = useState([
 		"build microservices with Python & Golang",
 		"build interactive UI's using React",
-		"develop with cloud services including AWS, GCP, and Railway"
+		"develop on the cloud with AWS, GCP, & Railway"
 	]);
 
 	const onClick = (e) => scrollToEl(e);
@@ -27,7 +27,7 @@ export function WelcomeSection() {
 		let interval = setInterval(() => {
 			setCount(count + 1);
 
-			if (count === 3) {
+			if (count === 2) {
 				setCount(0);
 			}
 		}, 2000);
