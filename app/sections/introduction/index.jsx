@@ -17,7 +17,6 @@ export function WelcomeSection() {
 	let [count, setCount] = useState(0);
 	const [text] = useState([
 		"build microservices with Python & Golang",
-		"convert designs into modern UI's with TailwindCSS or Chakra UI",
 		"build interactive UI's using React",
 		"develop with cloud services including AWS, GCP, and Railway"
 	]);
