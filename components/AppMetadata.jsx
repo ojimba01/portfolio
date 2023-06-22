@@ -1,9 +1,9 @@
 const author = "Vasile Novatchii";
 const description =
-	"Software developer from Moldova, Republic of, who loves to develop beautiful websites, single page applications, customer relationship management or code from scratch using React and Next.js";
-const url = "https://vasile-novatchii.netlify.app";
+	"1st Generation Nigerian Software Engineer from New Jersey who loves to develop no matter the stack :)";
+const url = "https://olayinka.vercel.app/";
 export const AppMetadata = {
-	metadataBase: new URL("https://vasile-novatchii.netlify.app/"),
+	metadataBase: new URL("https://olayinka.vercel.app/"),
 	title: {
 		default: `Portfolio | ${author}`,
 		template: `%s | ${author}`
@@ -13,12 +13,14 @@ export const AppMetadata = {
 		icon: "/favicon.png"
 	},
 	keywords: [
-		"Vasile Novatchii",
-		"Vasile Novatchii - software developer",
-		"Frontend developer",
-		"Flutter developer",
+		"Olayinka Jimba",
+		"Olayinka Jimba - software engineer",
+		"Python developer",
+		"Go developer",
+		"Golang developer",
+		"DevOps engineer",
 		"Portfolio website",
-		"Frontend Developer Portfolio"
+		"Backend Engineer Portfolio"
 	],
 	creator: author,
 	authors: [{ name: author, url: url }],
@@ -30,13 +32,13 @@ export const AppMetadata = {
 		siteName: `${author} | Portfolio`,
 		images: [
 			{
-				url: "https://vasile-novatchii.netlify.app/screenshot.webp",
+				url: "https://olayinka.vercel.app/screenshot.webp",
 				width: 800,
 				height: 600,
 				alt: "My personal portfolio website"
 			},
 			{
-				url: "https://vasile-novatchii.netlify.app/screenshot.webp",
+				url: "https://olayinka.vercel.app/screenshot.webp",
 				width: 1800,
 				height: 1600,
 				alt: "My personal portfolio website"
