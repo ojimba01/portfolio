@@ -1,4 +1,4 @@
-const author = "Vasile Novatchii";
+const author = "Olayinka Jimba";
 const description =
 	"1st Generation Nigerian Software Engineer from New Jersey who loves to develop no matter the stack :)";
 const url = "https://olayinka.vercel.app/";
