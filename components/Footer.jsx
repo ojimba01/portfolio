@@ -21,7 +21,8 @@ export function AppFooter() {
 				}}
 			>
 				<div className="flex flex-col md:flex-row justify-between items-center gap-10 md:gap-5">
-					<p className="font-light">Copyright &copy; {year} Olayinka Jimba</p>
+					<p className="font-light">Copyright &copy; {year} Olayinka Jimba | This site is based on code by Vasile Novatchii. Want to use it for your own portfolio? Get the source on <a href="https://github.com/Infvyr">Github</a></p>
+					
 					<ScrollTop />
 					<ConnectMedia />
 				</div>

@@ -20,6 +20,11 @@ module.exports = {
 					light: "#3182ce",
 					normal: "#025091"
 				},
+				green: {
+					lighter: "#92c577",
+					light: "#3c9642",
+					normal: "#0f6820"
+				},
 				card: {
 					dark: "rgba(255, 255, 255, 0.04)",
 					light: "rgba(255, 255, 255, 0.80)"
@@ -53,3 +58,4 @@ module.exports = {
 		}
 	]
 };
+
