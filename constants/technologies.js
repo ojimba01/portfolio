@@ -19,7 +19,7 @@ import StyledIcon from "public/assets/svg/styledcomponents.svg";
 
 export const TECHNOLOGIES = [
 	{
-		category: "Backend",
+		category: "Back-end",
 		items: [
 			{ name: "Go (Golang)", icon: <TbBrandGolang size={32} /> },
 			// python icon
