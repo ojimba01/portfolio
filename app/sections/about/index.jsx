@@ -25,7 +25,7 @@ export function AboutSection() {
                         }}
                     >
                         <p>
-                            Hi, I{"'"}m Olayinka Jimba Jr., a Full-Stack Software Engineer with experience in Python, Javascript, Typescript, C#, C/C++, and Golang, among others. I am currently pursuing a B.A. in Computer Science & Data Science at The College of Wooster.
+                            Hi, I{"'"}m Olayinka Jimba Jr., a Full-Stack Software Engineer with experience in Python, Javascript, Typescript, C#, C/C++, and Golang, among others. I am currently pursuing a B.A. in Computer Science at The College of Wooster.
                         </p>
                         <p className="my-3.5">
                             My professional programming journey officially started in 2022 when I worked as a Software Engineer Intern at Tabula Rasa HealthCare. I played a vital role in building NLP ML applications and developing dialysis knowledge graphs.
@@ -43,7 +43,7 @@ export function AboutSection() {
                             In my free time, I like to work on open source projects. I have created a couple of exciting projects, one of which is Phlask Data Handlers that simplifies queries for Firebase{"'"}s RTDB, and another is LCR Online, a full-stack web app that emulates the multiplayer board game {"\"LCR\""}.
                         </p>
                         <p>
-                            With my versatile skill set, I am eager to solve complex problems and contribute to meaningful projects :)
+                            Feel free to contact me if youre looking to collab and solve complex problems while contributing to meaningful projects :)
                         </p>
                     </div>
                 </div>
