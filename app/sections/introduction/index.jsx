@@ -18,7 +18,7 @@ export function WelcomeSection() {
 	const [text] = useState([
 		"build microservices with Python & Golang",
 		"build interactive UI's using React",
-		"develop on the cloud with AWS, GCP, & Railway"
+		"develop on the cloud with AWS & GCP"
 	]);
 
 	const onClick = (e) => scrollToEl(e);
@@ -73,12 +73,12 @@ export function WelcomeSection() {
 											count === 0
 												? "0"
 												: count === 1
-												? "-100%"
-												: count === 2
-												? "-200%"
-												: count === 3
-												? "-300%"
-												: "0",
+													? "-100%"
+													: count === 2
+														? "-200%"
+														: count === 3
+															? "-300%"
+															: "0",
 										left: "13px"
 									}}
 								>
@@ -102,38 +102,38 @@ export function WelcomeSection() {
 							Stick around to see some of my work.
 						</p>
 						<div
-						ref={ref}
-						style={{
-							transform: isInView ? "none" : "translateY(50px)",
-							opacity: isInView ? 1 : 0,
-							transition: "all 0.9s cubic-bezier(0.17, 0.55, 0.55, 1) 0.5s",
-							display: "flex",
-							flexDirection: "row",
-							flexWrap: "wrap",
-							justifyContent: "flex-start", // Align items to the left side of the container
-							gap: "1rem",
-							maxWidth: "500px",
-							paddingLeft: "1rem" // Add some padding to the left side of the container
-						}}
+							ref={ref}
+							style={{
+								transform: isInView ? "none" : "translateY(50px)",
+								opacity: isInView ? 1 : 0,
+								transition: "all 0.9s cubic-bezier(0.17, 0.55, 0.55, 1) 0.5s",
+								display: "flex",
+								flexDirection: "row",
+								flexWrap: "wrap",
+								justifyContent: "flex-start", // Align items to the left side of the container
+								gap: "1rem",
+								maxWidth: "500px",
+								paddingLeft: "1rem" // Add some padding to the left side of the container
+							}}
 						>
-						<Link
-							href="#projects"
-							onClick={onClick}
-							tabIndex="0"
-							className="btn"
-							aria-label="Latest projects"
-							style={{ maxWidth: "240px" }}
-						>
-							See my latest projects
-						</Link>
-						<Link
-							href="https://moccasin-hettie-72.tiiny.site/"
-							className="btn"
-							aria-label="Check out my resume"
-							style={{ maxWidth: "240px" }}
-						>
-							Check out my resume
-						</Link>
+							<Link
+								href="#projects"
+								onClick={onClick}
+								tabIndex="0"
+								className="btn"
+								aria-label="Latest projects"
+								style={{ maxWidth: "240px" }}
+							>
+								See my latest projects
+							</Link>
+							<Link
+								href="https://moccasin-hettie-72.tiiny.site/"
+								className="btn"
+								aria-label="Check out my resume"
+								style={{ maxWidth: "240px" }}
+							>
+								Check out my resume
+							</Link>
 						</div>
 
 
